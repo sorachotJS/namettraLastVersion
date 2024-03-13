@@ -1,0 +1,118 @@
+.detailPro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.detailWall{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.detailWall button{
+    margin-left: 20px;
+    background-color: #fa0b0b;
+}
+.detailWall button:hover{
+    margin-left: 20px;
+    background-color: #f34949;
+}
+.detailWallOne button{
+    margin-left: 20px;
+    background-color: #fa0b0b;
+}
+.detailWallOne button:hover{
+    background-color: #f34949;
+}
+.detailWallOne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 220px;
+
+}
+.detailWallOneTues{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 220px;
+
+}
+.detailWallOneTues button{
+    background-color: #fa0b0b;
+}
+.detailWallOneTues button:hover{
+    background-color: #f34949;
+}
+
+.textHead{
+    color: #ffffff;
+}
+.subHeadSun{
+    color: #fa0404;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.subHeadMon{
+    color: yellow;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.subHeadTues{
+    color: purple;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.subHeadWen1{
+    color: green;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.subHeadWen2{
+    color: green;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.subHeadThurs{
+    color: green;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+.sdetail{
+    color: #ffffff;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .detailPro{
+        flex-direction: column;
+        align-items: flex-center;
+    }
+    .detailWall{
+        flex-direction: column;
+        align-items: flex-center;
+        text-align: center;
+    }
+    .detailWallOne{
+        flex-direction: column;
+        align-items: flex-center;
+        text-align: center;
+        margin-left: 0;
+
+    }
+    .detailWallOneTues{
+        flex-direction: column;
+        align-items: flex-center;
+        text-align: center;
+        margin-right: 0;
+    }
+    
+}
